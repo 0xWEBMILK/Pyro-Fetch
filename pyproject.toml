@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pyrogram-word-statistics"
+version = "0.1.0"
+description = ""
+authors = ["D. Adamson <0xwebmilk@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyrogram = "^2.0.106"
+pydantic = "^2.7.1"
+pydantic-settings = "^2.2.1"
+python-decouple = "^3.8"
+websocket = "^0.2.1"
+requests = "^2.31.0"
+enums = "^0.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
