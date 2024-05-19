@@ -13,5 +13,5 @@ class BotSettings(BaseModel):
         env_file_encoding = 'utf-8'
 
 
-        
+
 bot_settings = BotSettings()
