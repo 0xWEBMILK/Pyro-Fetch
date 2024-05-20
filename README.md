@@ -1,13 +1,32 @@
-![image](https://github.com/0xWEBMILK/Pyrogram-Price-Fetch/assets/116514936/ce64738a-350d-4ac3-a493-d5fd19aef7eb)
+![image](https://github.com/0xWEBMILK/Pyrogram-Price-Fetch/assets/116514936/8764cd64-d60b-40d8-928d-a54ea3795e1d)
 
 ---
 
-Project utilizes the Pyrogram library for interacting with cryptocurrency exchange APIs and retrieving real-time data on prices and trading volumes. We also make use of the pydantic library for validating and structuring the collected data.
+## About the Project
+This project is a cryptocurrency price tracker that fetches real-time data on digital currency prices and displays it in English. Stay informed about the latest market trends and fluctuations in the world of cryptocurrencies with this handy tool.
 
-- Pyrogram Library:
-  The Pyrogram library is used for communication with cryptocurrency exchange APIs, allowing us to fetch up-to-date data on cryptocurrency prices and trading volumes.
+## Technologies
+- Pyrogram: Pyrogram is a modern, elegant and asynchronous MTProto API framework.
+- Pydantic: The most widely used data validation library for Python.
+- Decouple: Decouple helps you to organize your settings so that you can change parameters without having to redeploy your app.
 
-- Pydantic Library:
-  Pydantic is employed for validating and structuring the collected data. It enables us to create data models with defined fields and validation rules to effectively process and analyze information about historical prices, trading volumes, and other key metrics of cryptocurrencies.
+## Installation
+To run the project, follow these steps:
+1. Clone the project repository.
+2. Install dependencies by running ```poetry install``` or ```pip install -r requirements.txt```
+3. Start the server application by running ```python ./__main__.py```
 
-Our project serves as a valuable tool for users to track cryptocurrency price changes in real-time, make forecasts, and take informed decisions when trading on exchanges. By providing a user-friendly and functional platform for working with cryptocurrency data, we aim to empower users to make successful investment decisions and optimize their trading strategies.
+
+## Contact
+For any questions or suggestions, please contact us via email at 0xwebmilk@gmail.com.
+
+---
+
+# Licence
+```
+The source code in this project is provided under the MIT License.
+If a copy of the MIT License was not distributed with this file,
+you can obtain one at https://opensource.org/licenses/MIT.
+
+Copyright (c) D. Adamson | 0xWEBMILK
+```
